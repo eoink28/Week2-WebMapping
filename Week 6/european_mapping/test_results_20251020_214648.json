@@ -1,0 +1,130 @@
+{
+  "test_run": {
+    "timestamp": "2025-10-20T21:46:48.716210",
+    "total_tests": 20,
+    "passed_tests": 19,
+    "failed_tests": 1
+  },
+  "detailed_results": [
+    {
+      "test": "Cities List",
+      "passed": true,
+      "details": "Retrieved 0 cities",
+      "timestamp": "2025-10-20T21:46:48.389334"
+    },
+    {
+      "test": "Cities GeoJSON Format",
+      "passed": false,
+      "details": "Invalid GeoJSON structure",
+      "timestamp": "2025-10-20T21:46:48.389343"
+    },
+    {
+      "test": "Regions List",
+      "passed": true,
+      "details": "Retrieved 0 regions",
+      "timestamp": "2025-10-20T21:46:48.426878"
+    },
+    {
+      "test": "Cities with pop >= 500k",
+      "passed": true,
+      "details": "0 cities found",
+      "timestamp": "2025-10-20T21:46:48.450018"
+    },
+    {
+      "test": "Cities with pop <= 100k",
+      "passed": true,
+      "details": "0 cities found",
+      "timestamp": "2025-10-20T21:46:48.472309"
+    },
+    {
+      "test": "Cities 100k-1M pop",
+      "passed": true,
+      "details": "0 cities found",
+      "timestamp": "2025-10-20T21:46:48.495383"
+    },
+    {
+      "test": "Large Regions (>10k km\u00b2)",
+      "passed": true,
+      "details": "0 regions found",
+      "timestamp": "2025-10-20T21:46:48.520156"
+    },
+    {
+      "test": "Large Urban Areas (>100 km\u00b2)",
+      "passed": true,
+      "details": "0 cities found",
+      "timestamp": "2025-10-20T21:46:48.542434"
+    },
+    {
+      "test": "German Cities",
+      "passed": true,
+      "details": "0 cities found",
+      "timestamp": "2025-10-20T21:46:48.557992"
+    },
+    {
+      "test": "Capital Cities",
+      "passed": true,
+      "details": "0 cities found",
+      "timestamp": "2025-10-20T21:46:48.574856"
+    },
+    {
+      "test": "Cities Statistics",
+      "passed": true,
+      "details": "Total cities: 100",
+      "timestamp": "2025-10-20T21:46:48.583428"
+    },
+    {
+      "test": "Regions Statistics",
+      "passed": true,
+      "details": "Total regions: 247",
+      "timestamp": "2025-10-20T21:46:48.591079"
+    },
+    {
+      "test": "Nearby Cities Query",
+      "passed": true,
+      "details": "1 cities within 100km of Berlin",
+      "timestamp": "2025-10-20T21:46:48.626124"
+    },
+    {
+      "test": "Bounding Box Query",
+      "passed": true,
+      "details": "12 cities in bbox",
+      "timestamp": "2025-10-20T21:46:48.641429"
+    },
+    {
+      "test": "Page Size Limit",
+      "passed": true,
+      "details": "Returned 0 items",
+      "timestamp": "2025-10-20T21:46:48.659393"
+    },
+    {
+      "test": "Pagination Metadata",
+      "passed": true,
+      "details": "Total count: 100",
+      "timestamp": "2025-10-20T21:46:48.659400"
+    },
+    {
+      "test": "/cities/ Response Time",
+      "passed": true,
+      "details": "19ms",
+      "timestamp": "2025-10-20T21:46:48.678972"
+    },
+    {
+      "test": "/regions/ Response Time",
+      "passed": true,
+      "details": "22ms",
+      "timestamp": "2025-10-20T21:46:48.700785"
+    },
+    {
+      "test": "/cities/statistics/ Response Time",
+      "passed": true,
+      "details": "9ms",
+      "timestamp": "2025-10-20T21:46:48.709448"
+    },
+    {
+      "test": "/regions/statistics/ Response Time",
+      "passed": true,
+      "details": "7ms",
+      "timestamp": "2025-10-20T21:46:48.716139"
+    }
+  ]
+}

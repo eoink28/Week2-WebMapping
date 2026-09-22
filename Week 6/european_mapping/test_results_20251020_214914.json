@@ -1,0 +1,118 @@
+{
+  "test_run": {
+    "timestamp": "2025-10-20T21:49:14.124947",
+    "total_tests": 18,
+    "passed_tests": 0,
+    "failed_tests": 18
+  },
+  "detailed_results": [
+    {
+      "test": "Cities List",
+      "passed": false,
+      "details": "Status: No response",
+      "timestamp": "2025-10-20T21:49:14.112021"
+    },
+    {
+      "test": "Regions List",
+      "passed": false,
+      "details": "Status: No response",
+      "timestamp": "2025-10-20T21:49:14.112933"
+    },
+    {
+      "test": "Cities with pop >= 500k",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.114144"
+    },
+    {
+      "test": "Cities with pop <= 100k",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.114995"
+    },
+    {
+      "test": "Cities 100k-1M pop",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.115858"
+    },
+    {
+      "test": "Large Regions Filter",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.116631"
+    },
+    {
+      "test": "Urban Area Filter",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.117318"
+    },
+    {
+      "test": "Country Filter",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.118070"
+    },
+    {
+      "test": "City Type Filter",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.118842"
+    },
+    {
+      "test": "Cities Statistics",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.119504"
+    },
+    {
+      "test": "Regions Statistics",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.120122"
+    },
+    {
+      "test": "Nearby Cities Query",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.120756"
+    },
+    {
+      "test": "Bounding Box Query",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.121430"
+    },
+    {
+      "test": "Pagination",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.122070"
+    },
+    {
+      "test": "/cities/ Response Time",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.122722"
+    },
+    {
+      "test": "/regions/ Response Time",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.123301"
+    },
+    {
+      "test": "/cities/statistics/ Response Time",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.124214"
+    },
+    {
+      "test": "/regions/statistics/ Response Time",
+      "passed": false,
+      "details": "Request failed",
+      "timestamp": "2025-10-20T21:49:14.124882"
+    }
+  ]
+}

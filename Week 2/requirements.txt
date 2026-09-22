@@ -1,0 +1,53 @@
+# Python Requirements for Spatial Data Import and Analysis Lab
+# CMPU4058 - Advanced Web Mapping - Week 2
+
+# Core Django Framework
+Django>=4.2.0
+django-environ>=0.10.0
+
+# Database connectivity
+psycopg2-binary>=2.9.5
+
+# Django REST Framework for API development
+djangorestframework>=3.14.0
+django-cors-headers>=4.0.0
+
+# Image processing (for admin interface)
+Pillow>=9.5.0
+
+# GDAL/OGR Python bindings for spatial data processing
+# Note: Version should match system GDAL installation
+# Use: pip install GDAL==$(gdal-config --version)
+GDAL>=3.4.0
+
+# Optional: Additional spatial analysis libraries
+# Uncomment if advanced spatial analysis features are desired
+
+# geopandas>=0.13.0          # For advanced spatial data analysis
+# shapely>=2.0.0             # For geometric operations
+# folium>=0.14.0             # For interactive web mapping
+# matplotlib>=3.6.0          # For spatial data plotting
+# numpy>=1.24.0              # For numerical operations
+# pandas>=2.0.0              # For data manipulation
+
+# Development and debugging tools (optional)
+# Uncomment for development environment
+
+# django-debug-toolbar>=4.0.0   # For Django debugging
+# django-extensions>=3.2.0      # Additional Django management commands
+# ipython>=8.10.0               # Enhanced Python shell
+# jupyter>=1.0.0                # For notebook-based analysis
+
+# Testing framework (optional)
+# Uncomment for unit testing
+
+# pytest>=7.2.0                 # Testing framework
+# pytest-django>=4.5.0          # Django integration for pytest
+# coverage>=7.0.0               # Code coverage analysis
+
+# Production deployment (optional)
+# Uncomment for production environment
+
+# gunicorn>=20.1.0              # WSGI HTTP Server
+# whitenoise>=6.4.0             # Static file serving
+# django-storages>=1.13.0       # Cloud storage backends
